@@ -9,12 +9,14 @@ html {
   min-height: 100%;
 }
 
+/*#portfolio-area.img{
+  float: left;
+}*/
+
 .container{
   background: #000;
   color:#fff;
-/*  opacity: 0.8;*/
 }
-
 
 #name_input,
 #mail_input,
@@ -52,6 +54,11 @@ html {
 #images {
   padding-top: 15px;
   text-align: center;
+}
+
+.port-imgs {
+/*  position: absolute;
+  text-align: center;*/
 }
 
 section#connect-with-me-area{
