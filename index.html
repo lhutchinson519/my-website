@@ -7,51 +7,42 @@
     <title>Lauren Hutchinson's Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" media="screen">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" media="screen">
-
 </head>
 
 <body>
-    <!-- Start of navbar -->
-    <nav class="navbar navbar-default">
-        <div class="container-fluid navbar-custom">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="row">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <div class="col-xs-12 phone-nav">
-                        <a class="navbar-brand" href="#" id="logo">Lauren Hutchinson</a>
-                    </div>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right navbar-right-custom">
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="index.html">About</a></li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
+    <div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right navbar-right-custom">
+                <nav>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </nav>
+            </ul>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-    <!-- End of navbar -->
+    </div>
     <!-- Start of content wrap -->
-    <div class="container" id="contentinfo">
-        <article class="about-me-content">
-            <h1 class="about-me-header">About Me</h1>
-            <hr class="about-me-hr" />
-            <img src="./assets/img/me.jpg" alt="" id="lauren-image" />
-            <p id="myinfo">Hey there, <br><br> My name is Lauren Hutchinson and I am originally from San Francisco, CA. Currently, I am studying General Business with a concentration in entrepreneurship at Southern Methodist Unviersity Cox School of Business in Dallas, TX. </p> <br> I am participating in a coding bootcamp, in which I plan to pursure a career. I am a hard worker, a team player, and I welcome challenges in our world of constantly evolving technology.<br><br>Please do not hesitate to reach out and connect with me!
-        </article>
+    <div id="welcomeDiv">
+        <p id="heading">Web developer, hard worker, and team player, able to build a sophisticated web pages, analyze site needs, and comfortable experimenting with new technologies.</p>
+    </div>
+
+    <div class="parallax"></div>
+
+    <div>
+
+
+            <img style="padding-right: 20px;" src="./assets/img/me.jpg" alt="" id="lauren-image" />
+            <h1 id="aboutMeHeader">A little about me...</h1>
+            <p id="aboutme">Currently, I am a senior at Southern Methodist University studying Business and Entrepreneurship with a love for innovative technology.
+            <br>
+            <br>
+            I am participating in an intensive 24-week long boot camp dedicated to designing and building web applications.
+            <br>
+            <br>
+            The bootcamp taught me skills in: Node.js, Express, JavaScript, jQuery, GIT, Github, MySQL, Firebase, HTML, CSS, Bootstrap, Media Queries, APIs, JSON, AJAX, the command line, writing tests, Microsoft Word, Excel</p>
+        <!-- Start of Connect With Me Area -->
     </div>
     <div>
-        <!-- Start of Connect With Me Area -->
         <section id="connect-with-me-area">
             <div class="connect-with-me-content">
                 <h1 class="connect-with-me-header">Connect With Me</h1>
@@ -62,10 +53,9 @@
                     <a href="https://stackoverflow.com/users/7897619/lauren-hutchinson"><img src="./assets/img/stackoverflow-128.png" alt="" class="connect-with-me-photo"></a>
                 </div>
             </div>
-        </section>
+        </secti on>
         <!-- End of the Connect With Me Area -->
     </div>
-    </section>
     <!-- End of content wrap -->
     <!-- Start of footer -->
     <footer class="footer">
@@ -79,10 +69,9 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <!-- Bootstrap CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
-	<script type="text/javascript" src="app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+    <script type="text/javascript" src="app.js"></script>
     <script type="text/javascript" src="main.js"></script>
-
 </body>
 
 </html>
