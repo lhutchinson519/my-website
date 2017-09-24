@@ -3,24 +3,40 @@ body {
   margin-bottom: 150px;
   font-family: Georgia;
 /*  background-image: url("sanfran.jpg");*/
+  background-color: black;
 }
 html {
   position: relative;
   min-height: 100%;
 }
 
-#bs-example-navbar-collapse-1{
-  color:white;
-  font-size: 20px;
+
+#nameL {
+  text-align: center;
+  margin: 15px 30px;
+  margin-top: 250px;
+  letter-spacing: 2px;
+}
+
+#heading{
+  text-align: center;
+  margin: 15px 30px;
+  letter-spacing: 2px;
+}
+
+#desc{
+    text-align: center;
+  margin: 15px 30px;
+  letter-spacing: 2px;
 }
 
 .parallax {
-    /* The image used */
+/*     The image used */
     background-image: url("./../img/sanfran.jpg");
 /*    background-color: lightblue;
-*/
+
     /* Set a specific height */
-    height: 600px; 
+    height: 780px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -28,7 +44,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    color:white;
+
 }
 
 ul {
@@ -57,12 +73,13 @@ color: grey;
 text-align: center;
 font-size: 30px;
 margin-top: 20px;
+
 }
 
 #aboutMeHeader{
   text-align: center;
   padding-top: 100px;
-  color: red;
+  color: white;
 }
 
 #aboutme{
