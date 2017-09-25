@@ -1,7 +1,7 @@
 /*New Styling code*/
 body {
   margin-bottom: 150px;
-  font-family: Georgia;
+  font-family: Courier;
 /*  background-image: url("sanfran.jpg");*/
   background-color: black;
 }
@@ -10,11 +10,23 @@ html {
   min-height: 100%;
 }
 
-
 #nameL {
   text-align: center;
   margin: 15px 30px;
   margin-top: 250px;
+  letter-spacing: 2px;
+}
+
+#namePort{
+  text-align: center;
+  margin: 15px 30px;
+  margin-top: 75px;
+  letter-spacing: 2px;
+}
+
+#descPort{
+  text-align: center;
+  margin: 15px 30px;
   letter-spacing: 2px;
 }
 
@@ -25,7 +37,7 @@ html {
 }
 
 #desc{
-    text-align: center;
+  text-align: center;
   margin: 15px 30px;
   letter-spacing: 2px;
 }
@@ -45,6 +57,10 @@ html {
     background-size: cover;
     width: 100%;
 
+}
+
+#parallaxPort{
+  height: 400px;
 }
 
 ul {
@@ -77,15 +93,19 @@ margin-top: 20px;
 }
 
 #aboutMeHeader{
+  font-family: Courier;
   text-align: center;
   padding-top: 100px;
   color: white;
+   letter-spacing: 2px;
+   font-size: 30px;
 }
 
 #aboutme{
   color:grey;
   font-size: 18px;
   padding-left: 20px;
+  
 }
 
 #name_input,
